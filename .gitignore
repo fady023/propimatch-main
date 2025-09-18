@@ -1,0 +1,40 @@
+node_modules
+dist
+.expo
+.turbo
+.next
+build
+coverage
+*.log
+.DS_Store
+android
+ios
+
+# Env files (never commit secrets)
+.env
+*.env
+apps/*/.env
+apps/*/.env.*
+packages/*/.env
+supabase/.env
+
+# Build outputs and caches
+dist/
+build/
+coverage/
+*.tsbuildinfo
+.vite/
+.vercel/
+.netlify/
+.render/
+.eslintcache
+
+# OS / Editor
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*

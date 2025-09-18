@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/types" },
+    { "path": "packages/theme" },
+    { "path": "packages/data" },
+    { "path": "apps/web" },
+    { "path": "apps/mobile" }
+  ]
+}
+

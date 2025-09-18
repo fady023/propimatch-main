@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --bg: #0B1215;
+  --text: #E6F0F2;
+  --muted: #A7BBC2;
+  --surface: #101A1F;
+  --surface-elev: #0f181d;
+  --surface-hover: #132027;
+  --border: #1F2B33;
+  --primary: #0E5D6C;
+  --success: #0d8c68;
+  --warning: #d99a00;
+  --danger: #cc3a3a;
+  --focus: #5ad3f0;
+
+  --shadow-xs: 0 1px 0 rgba(0,0,0,0.15);
+  --shadow-sm: 0 4px 12px rgba(0,0,0,0.2);
+  --shadow-md: 0 10px 30px rgba(0,0,0,0.25);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --duration-1: 120ms;
+  --duration-2: 180ms;
+  --duration-3: 240ms;
+}
+
+:root.light {
+  color-scheme: light;
+  --bg: #ffffff;
+  --text: #0B1215;
+  --muted: #526871;
+  --surface: #F5F7F8;
+  --surface-elev: #ffffff;
+  --surface-hover: #eef2f4;
+  --border: #D7E0E4;
+  --primary: #0E5D6C;
+  --success: #0c7e5e;
+  --warning: #a87100;
+  --danger: #b22e2e;
+  --focus: #0E5D6C;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+

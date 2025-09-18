@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "types": ["react", "react-native"],
+    "baseUrl": ".",
+    "paths": {
+      "@propimatch/types": ["../../packages/types/src"],
+      "@propimatch/theme": ["../../packages/theme/src"],
+      "@propimatch/data": ["../../packages/data/src"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}
+

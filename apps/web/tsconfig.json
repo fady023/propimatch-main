@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@propimatch/types": ["../../packages/types/src"],
+      "@propimatch/theme": ["../../packages/theme/src"],
+      "@propimatch/data": ["../../packages/data/src"]
+    }
+  },
+  "include": ["src"]
+}
+

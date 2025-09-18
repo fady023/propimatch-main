@@ -1,0 +1,23 @@
+{
+  "name": "propimatch",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace apps/web run dev",
+    "build:web": "npm --workspace apps/web run build",
+    "preview:web": "npm --workspace apps/web run preview",
+    "dev:mobile": "npm --workspace apps/mobile run start",
+    "dev:server": "npm --workspace apps/server run dev",
+    "build:server": "npm --workspace apps/server run build",
+    "start:server": "npm --workspace apps/server run start",
+    "typecheck": "tsc -b -v"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
+
